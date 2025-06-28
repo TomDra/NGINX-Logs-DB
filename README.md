@@ -41,13 +41,13 @@ LOG_FILE=/var/log/nginx_parser.log
 ## How to Use
 
 Run the script (The better way):
-    ```
-    ./run_nginx_parser.sh
-    ```
+
+`./run_nginx_parser.sh`
+
 You can run the script directly with python:
-```
-    python3 main.py
-```
+
+`python3 main.py`
+
 ## Notes
 
 - The tree auto-refreshes every 5 seconds if changes are detected.
