@@ -48,8 +48,4 @@ You can run the script directly with python:
 
 `python3 main.py`
 
-## Notes
-
-- The tree auto-refreshes every 5 seconds if changes are detected.
-- The script uses file modification time and size to detect changes.
-- Tooltips offer brief descriptions of buttons and options.
+In my use case I have a cron job set to run the script every 10 minutes
